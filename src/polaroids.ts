@@ -1,0 +1,156 @@
+export type Polroid = {
+  img: string;
+  top: number;
+  left: number;
+  index: number;
+  rotate: number;
+  caption: string;
+};
+
+
+export const Polaroids: Polroid[] = [
+  {
+    img: '/example-1.mp4',
+    top: -2,
+    left: 1,
+    index: 1,
+    rotate: -6,
+    caption: 'thoughtful',
+  },
+  {
+    img: '/example-2.webp',
+    top: 30,
+    left: -1,
+    index: 3,
+    rotate: 6,
+    caption: 'Sunset',
+  },
+  {
+    img: '/example-3.mp4',
+    top: 65,
+    left: 1,
+    index: 1,
+    rotate: -6,
+    caption: 'Precious',
+  },
+  {
+    img: '/example-4.webp',
+    top: -5,
+    left: 17,
+    index: 5,
+    rotate: 6,
+    caption: 'Awesome',
+  },
+  {
+    img: '/example-5.mp4',
+    top: 30,
+    left: 15,
+    index: 4,
+    rotate: -6,
+    caption: 'Cute',
+  },
+  {
+    img: '/example-6.webp',
+    top: 63,
+    left: 17,
+    index: 3,
+    rotate: 6,
+    caption: 'Perfection',
+  },
+  {
+    img: '/example-7.mp4',
+    top: -2,
+    left: 32,
+    index: 3,
+    rotate: -6,
+    caption: 'Thoughtful',
+  },
+  {
+    img: '/example-8.webp',
+    top: 30,
+    left: 32,
+    index: 1,
+    rotate: -6,
+    caption: 'Unique',
+  },
+  {
+    img: '/example-9.mp4',
+    top: 66,
+    left: 32,
+    index: 1,
+    rotate: -6,
+    caption: 'Birthday celebrations',
+  },
+  {
+    img: '/example-10.webp',
+    top: 1,
+    left: 48,
+    index: 8,
+    rotate: 6,
+    caption: 'Beautiful',
+  },
+  {
+    img: '/example-11.mp4',
+    top: 35,
+    left: 49,
+    index: 1,
+    rotate: 6,
+    caption: 'Funny',
+  },
+  {
+    img: '/example-12.webp',
+    top: 57,
+    left: 49,
+    index: 10,
+    rotate: 6,
+    caption: 'Creative',
+  },
+  {
+    img: '/example-13.mp4',
+    top: -2,
+    left: 65,
+    index: 6,
+    rotate: -6,
+    caption: 'New York',
+  },
+  {
+    img: '/example-14.webp',
+    top: 32,
+    left: 67,
+    index: 6,
+    rotate: -5,
+    caption: 'Beautiful',
+  },
+  {
+    img: '/example-15.mp4',
+    top: 62,
+    left: 67,
+    index: 6,
+    rotate: 6,
+    caption: 'Gorgeous',
+  },
+  {
+    img: '/example-16.webp',
+    top: -2,
+    left: 81,
+    index: 10,
+    rotate: -6,
+    caption: 'Smart',
+  },
+  {
+    img: '/example-17.mp4',
+    top: 30,
+    left: 84,
+    index: 2,
+    rotate: 6,
+    caption: 'Exceptional',
+  },
+  {
+    img: '/example-18.webp',
+    top: 70,
+    left: 82,
+    index: 9,
+    rotate: -6,
+    caption: 'Kind-hearted',
+  },
+];
